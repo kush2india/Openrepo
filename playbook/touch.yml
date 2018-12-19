@@ -1,0 +1,7 @@
+---
+- hosts: client1
+  tasks:
+     - name: create file
+       file:
+           path: /home/kk/kk1
+           state: touch

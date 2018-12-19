@@ -1,0 +1,8 @@
+---
+- hosts: client1
+   tasks:
+    - name: ansiable copy file to remote server
+   copy:
+   src:sample.txt
+   dest:/home/kk
+
